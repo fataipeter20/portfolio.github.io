@@ -1,0 +1,40 @@
+body{
+    font-family: "poppins", sans-serif;
+
+}
+
+header{
+    background-image: url("images/header.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    min-height:800px;
+}
+
+.intro-text{
+    margin-top: 30vh;
+    
+}
+
+.sidenav-close span{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:90%;
+}
+.contact{
+    text-align: center;
+}
+
+@media screen and (max-width:500px){
+    header{
+        background-image: url("images/coding.jpg");
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+        min-height:600px;
+        text-align: center;
+    }
+}
